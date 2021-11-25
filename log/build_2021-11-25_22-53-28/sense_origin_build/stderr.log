@@ -1,0 +1,41 @@
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:73:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+   73 | extern [01;31m[K"C"[m[K void Sense_initialize(void)
+      |        [01;31m[K^~~[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:83:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+   83 | extern [01;31m[K"C"[m[K void Sense_terminate(void)
+      |        [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/Sense.dir/build.make:63: CMakeFiles/Sense.dir/src/Sense.c.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:42:19:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSense_step[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   42 | extern Sense_step([01;31m[K)[m[K;
+      |                   [01;31m[K^[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:42:8:[m[K [01;31m[Kerror: [m[Kambiguating new declaration of ‘[01m[Kint Sense_step()[m[K’
+   42 | extern [01;31m[KSense_step[m[K();
+      |        [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:22[m[K:
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build/Sense.h:77:13:[m[K [01;36m[Knote: [m[Kold declaration ‘[01m[Kvoid Sense_step()[m[K’
+   77 | extern void [01;36m[KSense_step[m[K(void);
+      |             [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:43:25:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSense_initialize[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   43 | extern Sense_initialize([01;31m[K)[m[K;
+      |                         [01;31m[K^[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:43:8:[m[K [01;31m[Kerror: [m[Kambiguating new declaration of ‘[01m[Kint Sense_initialize()[m[K’
+   43 | extern [01;31m[KSense_initialize[m[K();
+      |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:22[m[K:
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build/Sense.h:76:13:[m[K [01;36m[Knote: [m[Kold declaration ‘[01m[Kvoid Sense_initialize()[m[K’
+   76 | extern void [01;36m[KSense_initialize[m[K(void);
+      |             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:44:24:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSense_terminate[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   44 | extern Sense_terminate([01;31m[K)[m[K;
+      |                        [01;31m[K^[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:44:8:[m[K [01;31m[Kerror: [m[Kambiguating new declaration of ‘[01m[Kint Sense_terminate()[m[K’
+   44 | extern [01;31m[KSense_terminate[m[K();
+      |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:22[m[K:
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build/Sense.h:78:13:[m[K [01;36m[Knote: [m[Kold declaration ‘[01m[Kvoid Sense_terminate()[m[K’
+   78 | extern void [01;36m[KSense_terminate[m[K(void);
+      |             [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/Sense.dir/build.make:76: CMakeFiles/Sense.dir/src/ert_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

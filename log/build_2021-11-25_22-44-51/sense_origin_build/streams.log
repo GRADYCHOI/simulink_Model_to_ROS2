@@ -1,0 +1,10 @@
+[0.032s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[0.130s] [35m[1mScanning dependencies of target Sense[0m
+[0.204s] [ 33%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m
+[2.240s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:43:1:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kextern[m[K’
+[2.240s]    43 | [01;31m[Kextern[m[K Sense_initialize()
+[2.240s]       | [01;31m[K^~~~~~[m[K
+[2.778s] make[2]: *** [CMakeFiles/Sense.dir/build.make:76: CMakeFiles/Sense.dir/src/ert_main.cpp.o] Error 1
+[2.778s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+[2.778s] make: *** [Makefile:141: all] Error 2
+[2.784s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2

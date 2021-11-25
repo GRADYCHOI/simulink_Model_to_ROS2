@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target Sense[0m
+[ 33%] [32mBuilding C object CMakeFiles/Sense.dir/src/Sense.c.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:34:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+   34 | extern [01;31m[K"C"[m[K{
+      |        [01;31m[K^~~[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:75:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+   75 | extern [01;31m[K"C"[m[K void Sense_initialize(void)
+      |        [01;31m[K^~~[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:85:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+   85 | extern [01;31m[K"C"[m[K void Sense_terminate(void)
+      |        [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/Sense.dir/build.make:63: CMakeFiles/Sense.dir/src/Sense.c.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:37:1:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[Kextern[m[K’
+   37 | [01;31m[Kextern[m[K "C" Sense_initialize()
+      | [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/Sense.dir/build.make:76: CMakeFiles/Sense.dir/src/ert_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

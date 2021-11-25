@@ -1,0 +1,23 @@
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:34:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+   34 | extern [01;31m[K"C"[m[K void Sense_step(void)
+      |        [01;31m[K^~~[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:73:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+   73 | extern [01;31m[K"C"[m[K void Sense_initialize(void)
+      |        [01;31m[K^~~[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:83:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+   83 | extern [01;31m[K"C"[m[K void Sense_terminate(void)
+      |        [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/Sense.dir/build.make:63: CMakeFiles/Sense.dir/src/Sense.c.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:42:24:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+   42 | extern "C" Sense_step()[01;31m[K;[m[K
+      |                        [01;31m[K^[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:43:30:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+   43 | extern "C" Sense_initialize()[01;31m[K;[m[K
+      |                              [01;31m[K^[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:44:29:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+   44 | extern "C" Sense_terminate()[01;31m[K;[m[K
+      |                             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/Sense.dir/build.make:76: CMakeFiles/Sense.dir/src/ert_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,28 @@
+[0.034s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[0.133s] [35m[1mScanning dependencies of target Sense[0m
+[0.161s] [ 33%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m
+[0.240s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:36:17:[m[K [01;31m[Kerror: [m[Kconflicting declaration of ‘[01m[Kvoid Sense_step()[m[K’ with ‘[01m[KC[m[K’ linkage
+[0.240s]    36 | extern "C" void [01;31m[KSense_step[m[K();
+[0.240s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[0.241s] In file included from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:22[m[K:
+[0.241s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build/Sense.h:73:13:[m[K [01;36m[Knote: [m[Kprevious declaration with ‘[01m[KC++[m[K’ linkage
+[0.242s]    73 | extern void [01;36m[KSense_step[m[K(void);
+[0.242s]       |             [01;36m[K^~~~~~~~~~[m[K
+[0.242s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:37:17:[m[K [01;31m[Kerror: [m[Kconflicting declaration of ‘[01m[Kvoid Sense_initialize()[m[K’ with ‘[01m[KC[m[K’ linkage
+[0.242s]    37 | extern "C" void [01;31m[KSense_initialize[m[K();
+[0.242s]       |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.242s] In file included from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:22[m[K:
+[0.242s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build/Sense.h:72:13:[m[K [01;36m[Knote: [m[Kprevious declaration with ‘[01m[KC++[m[K’ linkage
+[0.243s]    72 | extern void [01;36m[KSense_initialize[m[K(void);
+[0.243s]       |             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[0.243s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:38:17:[m[K [01;31m[Kerror: [m[Kconflicting declaration of ‘[01m[Kvoid Sense_terminate()[m[K’ with ‘[01m[KC[m[K’ linkage
+[0.243s]    38 | extern "C" void [01;31m[KSense_terminate[m[K();
+[0.243s]       |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.243s] In file included from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:22[m[K:
+[0.243s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build/Sense.h:74:13:[m[K [01;36m[Knote: [m[Kprevious declaration with ‘[01m[KC++[m[K’ linkage
+[0.243s]    74 | extern void [01;36m[KSense_terminate[m[K(void);
+[0.244s]       |             [01;36m[K^~~~~~~~~~~~~~~[m[K
+[0.247s] make[2]: *** [CMakeFiles/Sense.dir/build.make:76: CMakeFiles/Sense.dir/src/ert_main.cpp.o] Error 1
+[0.249s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+[0.249s] make: *** [Makefile:141: all] Error 2
+[0.254s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2

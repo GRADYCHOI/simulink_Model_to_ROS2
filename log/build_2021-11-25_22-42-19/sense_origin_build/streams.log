@@ -1,0 +1,15 @@
+[0.042s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[0.141s] [35m[1mScanning dependencies of target Sense[0m
+[0.172s] [ 33%] [32mBuilding C object CMakeFiles/Sense.dir/src/Sense.c.o[0m
+[0.179s] [ 66%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m
+[0.352s] [100%] [32m[1mLinking CXX executable Sense[0m
+[0.573s] /usr/bin/ld: CMakeFiles/Sense.dir/src/ert_main.cpp.o: in function `rt_OneStep()':
+[0.573s] ert_main.cpp:(.text+0x2e): undefined reference to `Sense_step()'
+[0.574s] /usr/bin/ld: CMakeFiles/Sense.dir/src/ert_main.cpp.o: in function `main':
+[0.574s] ert_main.cpp:(.text+0x4f): undefined reference to `Sense_initialize()'
+[0.574s] /usr/bin/ld: ert_main.cpp:(.text+0xa2): undefined reference to `Sense_terminate()'
+[0.577s] collect2: error: ld returned 1 exit status
+[0.582s] make[2]: *** [CMakeFiles/Sense.dir/build.make:146: Sense] Error 1
+[0.582s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+[0.582s] make: *** [Makefile:141: all] Error 2
+[0.585s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2

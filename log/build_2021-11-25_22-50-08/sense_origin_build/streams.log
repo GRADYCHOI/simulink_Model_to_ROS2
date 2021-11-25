@@ -1,0 +1,28 @@
+[0.035s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[0.165s] [35m[1mScanning dependencies of target Sense[0m
+[0.207s] [ 33%] [32mBuilding C object CMakeFiles/Sense.dir/src/Sense.c.o[0m
+[0.213s] [ 66%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m
+[0.267s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:34:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+[0.267s]    34 | extern [01;31m[K"C"[m[K void Sense_step(void)
+[0.267s]       |        [01;31m[K^~~[m[K
+[0.267s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:73:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+[0.267s]    73 | extern [01;31m[K"C"[m[K void Sense_initialize(void)
+[0.267s]       |        [01;31m[K^~~[m[K
+[0.267s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:83:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+[0.268s]    83 | extern [01;31m[K"C"[m[K void Sense_terminate(void)
+[0.268s]       |        [01;31m[K^~~[m[K
+[0.283s] make[2]: *** [CMakeFiles/Sense.dir/build.make:63: CMakeFiles/Sense.dir/src/Sense.c.o] Error 1
+[0.283s] make[2]: *** Waiting for unfinished jobs....
+[2.315s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:42:24:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[2.315s]    42 | extern "C" Sense_step()[01;31m[K;[m[K
+[2.315s]       |                        [01;31m[K^[m[K
+[2.316s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:43:30:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[2.316s]    43 | extern "C" Sense_initialize()[01;31m[K;[m[K
+[2.316s]       |                              [01;31m[K^[m[K
+[2.316s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:44:29:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[2.316s]    44 | extern "C" Sense_terminate()[01;31m[K;[m[K
+[2.316s]       |                             [01;31m[K^[m[K
+[2.873s] make[2]: *** [CMakeFiles/Sense.dir/build.make:76: CMakeFiles/Sense.dir/src/ert_main.cpp.o] Error 1
+[2.873s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+[2.873s] make: *** [Makefile:141: all] Error 2
+[2.880s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2

@@ -1,0 +1,27 @@
+[0.029s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[0.123s] [35m[1mScanning dependencies of target Sense[0m
+[0.175s] [ 33%] [32mBuilding C object CMakeFiles/Sense.dir/src/Sense.c.o[0m
+[0.200s] [ 66%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m
+[4.670s] [100%] [32m[1mLinking CXX executable Sense[0m
+[4.965s] [100%] Built target Sense
+[4.987s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[5.063s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ngvedu/test1_ws/build/sense_origin_build
+[5.081s] -- Install configuration: ""
+[5.081s] -- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/lib/sense_origin_build/Sense
+[5.083s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/ament_index/resource_index/package_run_dependencies/sense_origin_build
+[5.083s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/ament_index/resource_index/parent_prefix_path/sense_origin_build
+[5.083s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/ament_prefix_path.sh
+[5.083s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/ament_prefix_path.dsv
+[5.083s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/path.sh
+[5.084s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/path.dsv
+[5.084s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.bash
+[5.084s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.sh
+[5.084s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.zsh
+[5.084s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.dsv
+[5.084s] -- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/package.dsv
+[5.084s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/ament_index/resource_index/packages/sense_origin_build
+[5.085s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.085s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/cmake/sense_origin_buildConfig.cmake
+[5.085s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/cmake/sense_origin_buildConfig-version.cmake
+[5.085s] -- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/package.xml
+[5.090s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ngvedu/test1_ws/build/sense_origin_build

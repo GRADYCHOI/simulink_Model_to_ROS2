@@ -1,0 +1,27 @@
+[0.092s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[0.347s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.382s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.644s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.651s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.883s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.888s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.414s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.496s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.821s] -- Configuring done
+[5.864s] -- Generating done
+[5.871s] -- Build files have been written to: /home/ngvedu/test1_ws/build/sense_origin_build
+[5.917s] [35m[1mScanning dependencies of target Sense[0m
+[5.944s] [ 33%] [32mBuilding C object CMakeFiles/Sense.dir/src/Sense.c.o[0m
+[5.951s] [ 66%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m
+[6.360s] [100%] [32m[1mLinking CXX executable Sense[0m
+[6.590s] /usr/bin/ld: CMakeFiles/Sense.dir/src/ert_main.cpp.o: in function `rt_OneStep()':
+[6.590s] ert_main.cpp:(.text+0x2e): undefined reference to `Sense_step()'
+[6.590s] /usr/bin/ld: CMakeFiles/Sense.dir/src/ert_main.cpp.o: in function `main':
+[6.591s] ert_main.cpp:(.text+0x4f): undefined reference to `Sense_initialize()'
+[6.591s] /usr/bin/ld: ert_main.cpp:(.text+0xa2): undefined reference to `Sense_terminate()'
+[6.591s] collect2: error: ld returned 1 exit status
+[6.593s] make[2]: *** [CMakeFiles/Sense.dir/build.make:146: Sense] Error 1
+[6.593s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+[6.594s] make: *** [Makefile:141: all] Error 2
+[6.598s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2

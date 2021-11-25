@@ -1,0 +1,30 @@
+[0.036s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[0.137s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.209s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.609s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.893s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.508s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.019s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.918s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.046s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.049s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.057s] -- Looking for pthread.h
+[7.358s] -- Looking for pthread.h - found
+[7.359s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.589s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.591s] -- Looking for pthread_create in pthreads
+[7.829s] -- Looking for pthread_create in pthreads - not found
+[7.829s] -- Looking for pthread_create in pthread
+[8.059s] -- Looking for pthread_create in pthread - found
+[8.061s] -- Found Threads: TRUE  
+[8.441s] CMake Error at CMakeLists.txt:44 (target_link_libraries):
+[8.442s]   Cannot specify link libraries for target "sense_origin_build" which is not
+[8.442s]   built by this project.
+[8.442s] 
+[8.442s] 
+[8.444s] -- Configuring incomplete, errors occurred!
+[8.444s] See also "/home/ngvedu/test1_ws/build/sense_origin_build/CMakeFiles/CMakeOutput.log".
+[8.444s] See also "/home/ngvedu/test1_ws/build/sense_origin_build/CMakeFiles/CMakeError.log".
+[8.461s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[8.466s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2

@@ -1,0 +1,24 @@
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:42:17:[m[K [01;31m[Kerror: [m[Kconflicting declaration of ‘[01m[Kvoid Sense_step()[m[K’ with ‘[01m[KC[m[K’ linkage
+   42 | extern "C" void [01;31m[KSense_step[m[K(void);
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:22[m[K:
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build/Sense.h:77:13:[m[K [01;36m[Knote: [m[Kprevious declaration with ‘[01m[KC++[m[K’ linkage
+   77 | extern void [01;36m[KSense_step[m[K(void);
+      |             [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:43:17:[m[K [01;31m[Kerror: [m[Kconflicting declaration of ‘[01m[Kvoid Sense_initialize()[m[K’ with ‘[01m[KC[m[K’ linkage
+   43 | extern "C" void [01;31m[KSense_initialize[m[K(void);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:22[m[K:
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build/Sense.h:76:13:[m[K [01;36m[Knote: [m[Kprevious declaration with ‘[01m[KC++[m[K’ linkage
+   76 | extern void [01;36m[KSense_initialize[m[K(void);
+      |             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:44:17:[m[K [01;31m[Kerror: [m[Kconflicting declaration of ‘[01m[Kvoid Sense_terminate()[m[K’ with ‘[01m[KC[m[K’ linkage
+   44 | extern "C" void [01;31m[KSense_terminate[m[K(void);
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:22[m[K:
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build/Sense.h:78:13:[m[K [01;36m[Knote: [m[Kprevious declaration with ‘[01m[KC++[m[K’ linkage
+   78 | extern void [01;36m[KSense_terminate[m[K(void);
+      |             [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/Sense.dir/build.make:76: CMakeFiles/Sense.dir/src/ert_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

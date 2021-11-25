@@ -1,0 +1,15 @@
+[0.062s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[0.175s] [35m[1mScanning dependencies of target Sense[0m
+[0.214s] [ 33%] [32mBuilding C object CMakeFiles/Sense.dir/src/Sense.c.o[0m
+[0.234s] [ 66%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m
+[0.354s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:[m[K In function ‘[01m[Kint_T main(int_T, const char**)[m[K’:
+[0.354s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:81:10:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[0.354s]    81 |   extern [01;31m[K"C"[m[K Sense_initialize();
+[0.355s]       |          [01;31m[K^~~[m[K
+[0.355s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:102:10:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+[0.355s]   102 |   extern [01;31m[K"C"[m[K Sense_terminate();
+[0.355s]       |          [01;31m[K^~~[m[K
+[0.361s] make[2]: *** [CMakeFiles/Sense.dir/build.make:76: CMakeFiles/Sense.dir/src/ert_main.cpp.o] Error 1
+[0.361s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+[0.361s] make: *** [Makefile:141: all] Error 2
+[0.367s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2

@@ -1,0 +1,76 @@
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:106:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat64[m[K’?
+  106 |     rclcpp::Publisher<std_msgs::msg::[01;31m[Kfloat64[m[K>::SharedPtr publisher_;
+      |                                      [01;31m[K^~~~~~~[m[K
+      |                                      [32m[KFloat64[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:106:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat64[m[K’?
+  106 |     rclcpp::Publisher<std_msgs::msg::[01;31m[Kfloat64[m[K>::SharedPtr publisher_;
+      |                                      [01;31m[K^~~~~~~[m[K
+      |                                      [32m[KFloat64[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:106:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  106 |     rclcpp::Publisher<std_msgs::msg::float64[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:106:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  106 |     rclcpp::Publisher<std_msgs::msg::float64>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:106:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+  106 |     rclcpp::Publisher<std_msgs::msg::float64>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~[m[K
+      |                                                          [32m[Krcl_publisher_t[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:[m[K In constructor ‘[01m[KSinPub::SinPub()[m[K’:
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:91:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   91 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::float64>("sense_value", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:91:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat64[m[K’?
+   91 |       publisher_ = this->create_publisher<std_msgs::msg::[01;31m[Kfloat64[m[K>("sense_value", 10);
+      |                                                          [01;31m[K^~~~~~~[m[K
+      |                                                          [32m[KFloat64[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:91:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat64[m[K’?
+   91 |       publisher_ = this->create_publisher<std_msgs::msg::[01;31m[Kfloat64[m[K>("sense_value", 10);
+      |                                                          [01;31m[K^~~~~~~[m[K
+      |                                                          [32m[KFloat64[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:91:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSinPub::create_publisher<<expression error> >(const char [12], int)[m[K’
+   91 |       publisher_ = this->create_publisher<std_msgs::msg::float64>("sense_value", 10[01;31m[K)[m[K;
+      |                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:29[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:91:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   91 |       publisher_ = this->create_publisher<std_msgs::msg::float64>("sense_value", 10[01;31m[K)[m[K;
+      |                                                                                    [01;31m[K^[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:93:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ has not been declared
+   93 |       100ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:[m[K In member function ‘[01m[Kvoid SinPub::timer_callback()[m[K’:
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:100:37:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  100 |       auto message = std_msgs::msg::[01;31m[KString[m[K();
+      |                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:103:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+  103 |       [01;31m[Kpublisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:[m[K In function ‘[01m[Kint_T main(int_T, const char**)[m[K’:
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:139:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSinPublisher[m[K’ was not declared in this scope
+  139 |   rclcpp::spin(std::make_shared<[01;31m[KSinPublisher[m[K>());
+      |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:139:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+  139 |   rclcpp::spin(std::make_shared<SinPublisher>([01;31m[K)[m[K);
+      |                                               [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:26[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:139:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  139 |   rclcpp::spin(std::make_shared<SinPublisher>([01;31m[K)[m[K);
+      |                                               [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/Sense.dir/build.make:76: CMakeFiles/Sense.dir/src/ert_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.007627] (sense_origin_build) JobQueued: {'identifier': 'sense_origin_build', 'dependencies': OrderedDict()}
+[0.007782] (sense_origin_build) JobStarted: {'identifier': 'sense_origin_build'}
+[0.027199] (sense_origin_build) JobProgress: {'identifier': 'sense_origin_build', 'progress': 'cmake'}
+[0.028649] (sense_origin_build) JobProgress: {'identifier': 'sense_origin_build', 'progress': 'build'}
+[0.029960] (sense_origin_build) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngvedu/test1_ws/build/sense_origin_build', '--', '-j2', '-l2'], 'cwd': '/home/ngvedu/test1_ws/build/sense_origin_build', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngvedu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/ngvedu'), ('OLDPWD', '/home/ngvedu/test1_ws/src/sense_origin_build'), ('ROS_PYTHON_VERSION', '3'), ('LIBGL_ALWAYS_INDEIRECT', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ngvedu'), ('NAME', 'ngvVM'), ('WSL_INTEROP', '/run/WSL/20955_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ngvedu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jre1.8.0_311/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Choiin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Choiin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '67065138-3b20-406d-83f2-097e13d741a0'), ('DISPLAY', '172.17.112.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ngvedu/test1_ws/build/sense_origin_build'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098833] (-) TimerEvent: {}
+[0.150400] (sense_origin_build) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.199094] (-) TimerEvent: {}
+[0.224779] (sense_origin_build) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299403] (-) TimerEvent: {}
+[0.399911] (-) TimerEvent: {}
+[0.500430] (-) TimerEvent: {}
+[0.568090] (sense_origin_build) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.600773] (-) TimerEvent: {}
+[0.701477] (-) TimerEvent: {}
+[0.769952] (sense_origin_build) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.774220] (sense_origin_build) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.801685] (-) TimerEvent: {}
+[0.902308] (-) TimerEvent: {}
+[1.003381] (-) TimerEvent: {}
+[1.104329] (-) TimerEvent: {}
+[1.205275] (-) TimerEvent: {}
+[1.306221] (-) TimerEvent: {}
+[1.407397] (-) TimerEvent: {}
+[1.508334] (-) TimerEvent: {}
+[1.609143] (-) TimerEvent: {}
+[1.710259] (-) TimerEvent: {}
+[1.811031] (-) TimerEvent: {}
+[1.911820] (-) TimerEvent: {}
+[2.012539] (-) TimerEvent: {}
+[2.113265] (-) TimerEvent: {}
+[2.214061] (-) TimerEvent: {}
+[2.314761] (-) TimerEvent: {}
+[2.415548] (-) TimerEvent: {}
+[2.516369] (-) TimerEvent: {}
+[2.617219] (-) TimerEvent: {}
+[2.718228] (-) TimerEvent: {}
+[2.819518] (-) TimerEvent: {}
+[2.920283] (-) TimerEvent: {}
+[3.020882] (-) TimerEvent: {}
+[3.121488] (-) TimerEvent: {}
+[3.222088] (-) TimerEvent: {}
+[3.322988] (-) TimerEvent: {}
+[3.423638] (-) TimerEvent: {}
+[3.524285] (-) TimerEvent: {}
+[3.625307] (-) TimerEvent: {}
+[3.726040] (-) TimerEvent: {}
+[3.826698] (-) TimerEvent: {}
+[3.927388] (-) TimerEvent: {}
+[4.028087] (-) TimerEvent: {}
+[4.128765] (-) TimerEvent: {}
+[4.229481] (-) TimerEvent: {}
+[4.330259] (-) TimerEvent: {}
+[4.432156] (-) TimerEvent: {}
+[4.532882] (-) TimerEvent: {}
+[4.633532] (-) TimerEvent: {}
+[4.734220] (-) TimerEvent: {}
+[4.834996] (-) TimerEvent: {}
+[4.935811] (-) TimerEvent: {}
+[4.967593] (sense_origin_build) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.036138] (-) TimerEvent: {}
+[5.109332] (sense_origin_build) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.109679] (sense_origin_build) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.136473] (-) TimerEvent: {}
+[5.241570] (-) TimerEvent: {}
+[5.356199] (-) TimerEvent: {}
+[5.456857] (-) TimerEvent: {}
+[5.499154] (sense_origin_build) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.563062] (-) TimerEvent: {}
+[5.663943] (-) TimerEvent: {}
+[5.748191] (sense_origin_build) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.749944] (sense_origin_build) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.750522] (sense_origin_build) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build;$<BUILD_INTERFACE:/home/ngvedu/test1_ws/src/sense_origin_build/include>\n'}
+[5.750731] (sense_origin_build) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.767129] (-) TimerEvent: {}
+[5.767609] (sense_origin_build) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.767860] (sense_origin_build) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.767988] (sense_origin_build) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.768103] (sense_origin_build) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.768223] (sense_origin_build) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.768327] (sense_origin_build) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.783940] (sense_origin_build) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.822726] (sense_origin_build) StdoutLine: {'line': b'-- Generating done\n'}
+[5.823018] (sense_origin_build) StdoutLine: {'line': b'-- Build files have been written to: /home/ngvedu/test1_ws/build/sense_origin_build\n'}
+[5.867389] (-) TimerEvent: {}
+[5.941290] (sense_origin_build) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/Sense.dir/src/Sense.c.o\x1b[0m\n'}
+[5.963423] (sense_origin_build) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/Sense.dir/src/ert_main.c.o\x1b[0m\n'}
+[5.970650] (-) TimerEvent: {}
+[6.071159] (-) TimerEvent: {}
+[6.115867] (sense_origin_build) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C executable Sense\x1b[0m\n'}
+[6.171369] (-) TimerEvent: {}
+[6.272090] (-) TimerEvent: {}
+[6.301489] (sense_origin_build) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/Sense.dir/src/Sense.c.o: in function `Sense_step':\n"}
+[6.301954] (sense_origin_build) StderrLine: {'line': b"Sense.c:(.text+0x5e): undefined reference to `sin'\n"}
+[6.302116] (sense_origin_build) StderrLine: {'line': b"/usr/bin/ld: Sense.c:(.text+0x78): undefined reference to `cos'\n"}
+[6.304221] (sense_origin_build) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[6.313951] (sense_origin_build) StderrLine: {'line': b'make[2]: *** [CMakeFiles/Sense.dir/build.make:146: Sense] Error 1\n'}
+[6.314240] (sense_origin_build) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2\n'}
+[6.314641] (sense_origin_build) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.325433] (sense_origin_build) CommandEnded: {'returncode': 2}
+[6.372383] (-) TimerEvent: {}
+[6.408615] (sense_origin_build) JobEnded: {'identifier': 'sense_origin_build', 'rc': 2}
+[6.420888] (-) EventReactorShutdown: {}

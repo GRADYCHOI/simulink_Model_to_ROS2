@@ -1,0 +1,25 @@
+[0.044s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[0.126s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.163s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.404s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.415s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.610s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.453s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.523s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.525s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.861s] -- Configuring done
+[4.878s] -- Generating done
+[4.886s] -- Build files have been written to: /home/ngvedu/test1_ws/build/sense_origin_build
+[4.928s] [35m[1mScanning dependencies of target Sense[0m
+[4.951s] [ 33%] [32mBuilding C object CMakeFiles/Sense.dir/src/Sense.c.o[0m
+[4.967s] [ 66%] [32mBuilding C object CMakeFiles/Sense.dir/src/ert_main.c.o[0m
+[5.075s] [100%] [32m[1mLinking C executable Sense[0m
+[5.204s] /usr/bin/ld: CMakeFiles/Sense.dir/src/Sense.c.o: in function `Sense_step':
+[5.204s] Sense.c:(.text+0x5e): undefined reference to `sin'
+[5.204s] /usr/bin/ld: Sense.c:(.text+0x78): undefined reference to `cos'
+[5.204s] collect2: error: ld returned 1 exit status
+[5.206s] make[2]: *** [CMakeFiles/Sense.dir/build.make:146: Sense] Error 1
+[5.206s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+[5.207s] make: *** [Makefile:141: all] Error 2
+[5.211s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2

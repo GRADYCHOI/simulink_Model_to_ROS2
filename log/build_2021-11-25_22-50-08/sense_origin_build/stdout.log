@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target Sense[0m
+[ 33%] [32mBuilding C object CMakeFiles/Sense.dir/src/Sense.c.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m

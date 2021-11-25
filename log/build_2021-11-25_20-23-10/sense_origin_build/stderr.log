@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:44 (target_link_libraries):
+  Cannot specify link libraries for target "sense_origin_build" which is not
+  built by this project.
+
+
+make: *** [Makefile:222: cmake_check_build_system] Error 1

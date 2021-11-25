@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:42 (ment_export_include_directories):
+  Unknown CMake command "ment_export_include_directories".
+
+
+make: *** [Makefile:296: cmake_check_build_system] Error 1

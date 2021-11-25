@@ -1,0 +1,40 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ngvedu/test1_ws/build/sense_origin_build
+-- Install configuration: ""
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/ament_index/resource_index/package_run_dependencies/sense_origin_build
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/ament_index/resource_index/parent_prefix_path/sense_origin_build
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/ament_prefix_path.sh
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/ament_prefix_path.dsv
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/path.sh
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/path.dsv
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.bash
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.sh
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.zsh
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.dsv
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/package.dsv
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/ament_index/resource_index/packages/sense_origin_build
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/cmake/sense_origin_buildConfig.cmake
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/cmake/sense_origin_buildConfig-version.cmake
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/package.xml

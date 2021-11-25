@@ -1,0 +1,10 @@
+/home/ngvedu/test1_ws/build/sense_origin_build/CMakeFiles/install/strip.dir
+/home/ngvedu/test1_ws/build/sense_origin_build/CMakeFiles/install.dir
+/home/ngvedu/test1_ws/build/sense_origin_build/CMakeFiles/list_install_components.dir
+/home/ngvedu/test1_ws/build/sense_origin_build/CMakeFiles/rebuild_cache.dir
+/home/ngvedu/test1_ws/build/sense_origin_build/CMakeFiles/edit_cache.dir
+/home/ngvedu/test1_ws/build/sense_origin_build/CMakeFiles/test.dir
+/home/ngvedu/test1_ws/build/sense_origin_build/CMakeFiles/Sense.dir
+/home/ngvedu/test1_ws/build/sense_origin_build/CMakeFiles/install/local.dir
+/home/ngvedu/test1_ws/build/sense_origin_build/CMakeFiles/sense_origin_build_uninstall.dir
+/home/ngvedu/test1_ws/build/sense_origin_build/CMakeFiles/uninstall.dir

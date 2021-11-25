@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.002665] (sense_origin_build) JobQueued: {'identifier': 'sense_origin_build', 'dependencies': OrderedDict()}
+[0.002841] (sense_origin_build) JobStarted: {'identifier': 'sense_origin_build'}
+[0.019906] (sense_origin_build) JobProgress: {'identifier': 'sense_origin_build', 'progress': 'cmake'}
+[0.023196] (sense_origin_build) JobProgress: {'identifier': 'sense_origin_build', 'progress': 'build'}
+[0.023349] (sense_origin_build) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngvedu/test1_ws/build/sense_origin_build', '--', '-j2', '-l2'], 'cwd': '/home/ngvedu/test1_ws/build/sense_origin_build', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngvedu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/ngvedu'), ('OLDPWD', '/home/ngvedu/test1_ws/src/sense_origin_build'), ('ROS_PYTHON_VERSION', '3'), ('LIBGL_ALWAYS_INDEIRECT', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ngvedu'), ('NAME', 'ngvVM'), ('WSL_INTEROP', '/run/WSL/20955_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ngvedu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jre1.8.0_311/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Choiin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Choiin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '67065138-3b20-406d-83f2-097e13d741a0'), ('DISPLAY', '172.17.112.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ngvedu/test1_ws/build/sense_origin_build'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.082486] (sense_origin_build) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099196] (-) TimerEvent: {}
+[0.128136] (sense_origin_build) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199434] (-) TimerEvent: {}
+[0.300002] (-) TimerEvent: {}
+[0.357156] (sense_origin_build) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.361181] (sense_origin_build) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.400232] (-) TimerEvent: {}
+[0.500914] (-) TimerEvent: {}
+[0.518632] (sense_origin_build) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.525409] (sense_origin_build) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.601241] (-) TimerEvent: {}
+[0.702001] (-) TimerEvent: {}
+[0.802865] (-) TimerEvent: {}
+[0.903603] (-) TimerEvent: {}
+[1.004296] (-) TimerEvent: {}
+[1.105140] (-) TimerEvent: {}
+[1.206083] (-) TimerEvent: {}
+[1.307163] (-) TimerEvent: {}
+[1.412702] (-) TimerEvent: {}
+[1.513538] (-) TimerEvent: {}
+[1.614126] (-) TimerEvent: {}
+[1.714930] (-) TimerEvent: {}
+[1.815578] (-) TimerEvent: {}
+[1.916095] (-) TimerEvent: {}
+[2.016707] (-) TimerEvent: {}
+[2.117433] (-) TimerEvent: {}
+[2.219157] (-) TimerEvent: {}
+[2.320269] (-) TimerEvent: {}
+[2.422046] (-) TimerEvent: {}
+[2.523063] (-) TimerEvent: {}
+[2.623976] (-) TimerEvent: {}
+[2.724615] (-) TimerEvent: {}
+[2.825805] (-) TimerEvent: {}
+[2.926333] (-) TimerEvent: {}
+[3.026889] (-) TimerEvent: {}
+[3.127602] (-) TimerEvent: {}
+[3.229425] (-) TimerEvent: {}
+[3.330408] (-) TimerEvent: {}
+[3.430931] (-) TimerEvent: {}
+[3.531581] (-) TimerEvent: {}
+[3.632188] (-) TimerEvent: {}
+[3.732742] (-) TimerEvent: {}
+[3.833336] (-) TimerEvent: {}
+[3.933952] (-) TimerEvent: {}
+[4.034887] (-) TimerEvent: {}
+[4.135781] (-) TimerEvent: {}
+[4.236462] (-) TimerEvent: {}
+[4.337219] (-) TimerEvent: {}
+[4.437925] (-) TimerEvent: {}
+[4.538621] (-) TimerEvent: {}
+[4.639307] (-) TimerEvent: {}
+[4.740025] (-) TimerEvent: {}
+[4.840833] (-) TimerEvent: {}
+[4.941526] (-) TimerEvent: {}
+[4.952037] (sense_origin_build) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.021463] (sense_origin_build) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.023320] (sense_origin_build) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.041737] (-) TimerEvent: {}
+[5.142305] (-) TimerEvent: {}
+[5.243043] (-) TimerEvent: {}
+[5.320427] (sense_origin_build) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.334125] (sense_origin_build) StdoutLine: {'line': b'-- Generating done\n'}
+[5.336871] (sense_origin_build) StdoutLine: {'line': b'-- Build files have been written to: /home/ngvedu/test1_ws/build/sense_origin_build\n'}
+[5.343213] (-) TimerEvent: {}
+[5.404418] (sense_origin_build) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking C executable Sense\x1b[0m\n'}
+[5.443475] (-) TimerEvent: {}
+[5.544158] (-) TimerEvent: {}
+[5.578597] (sense_origin_build) StdoutLine: {'line': b'[100%] Built target Sense\n'}
+[5.596107] (sense_origin_build) CommandEnded: {'returncode': 0}
+[5.634706] (sense_origin_build) JobProgress: {'identifier': 'sense_origin_build', 'progress': 'install'}
+[5.644409] (-) TimerEvent: {}
+[5.650817] (sense_origin_build) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ngvedu/test1_ws/build/sense_origin_build'], 'cwd': '/home/ngvedu/test1_ws/build/sense_origin_build', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ngvedu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{2c4de342-38b7-51cf-b940-2309a097f518}'), ('HOME', '/home/ngvedu'), ('OLDPWD', '/home/ngvedu/test1_ws/src/sense_origin_build'), ('ROS_PYTHON_VERSION', '3'), ('LIBGL_ALWAYS_INDEIRECT', '1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ngvedu'), ('NAME', 'ngvVM'), ('WSL_INTEROP', '/run/WSL/20955_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ngvedu/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Java/jre1.8.0_311/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Choiin/AppData/Local/Programs/Python/Python37/:/mnt/c/Users/Choiin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Choiin/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '67065138-3b20-406d-83f2-097e13d741a0'), ('DISPLAY', '172.17.112.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ngvedu/test1_ws/build/sense_origin_build'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.669528] (sense_origin_build) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.670127] (sense_origin_build) StdoutLine: {'line': b'-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/lib/sense_origin_build/Sense\n'}
+[5.670609] (sense_origin_build) StdoutLine: {'line': b'-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/ament_index/resource_index/package_run_dependencies/sense_origin_build\n'}
+[5.671062] (sense_origin_build) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/ament_index/resource_index/parent_prefix_path/sense_origin_build\n'}
+[5.671281] (sense_origin_build) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/ament_prefix_path.sh\n'}
+[5.671519] (sense_origin_build) StdoutLine: {'line': b'-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/ament_prefix_path.dsv\n'}
+[5.671696] (sense_origin_build) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/path.sh\n'}
+[5.671871] (sense_origin_build) StdoutLine: {'line': b'-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/path.dsv\n'}
+[5.672047] (sense_origin_build) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.bash\n'}
+[5.672234] (sense_origin_build) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.sh\n'}
+[5.672364] (sense_origin_build) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.zsh\n'}
+[5.672533] (sense_origin_build) StdoutLine: {'line': b'-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.dsv\n'}
+[5.672703] (sense_origin_build) StdoutLine: {'line': b'-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/package.dsv\n'}
+[5.673061] (sense_origin_build) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/ament_index/resource_index/packages/sense_origin_build\n'}
+[5.673276] (sense_origin_build) StdoutLine: {'line': b'-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.673493] (sense_origin_build) StdoutLine: {'line': b'-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/cmake/sense_origin_buildConfig.cmake\n'}
+[5.673715] (sense_origin_build) StdoutLine: {'line': b'-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/cmake/sense_origin_buildConfig-version.cmake\n'}
+[5.673905] (sense_origin_build) StdoutLine: {'line': b'-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/package.xml\n'}
+[5.679490] (sense_origin_build) CommandEnded: {'returncode': 0}
+[5.746341] (-) TimerEvent: {}
+[5.753456] (sense_origin_build) JobEnded: {'identifier': 'sense_origin_build', 'rc': 0}
+[5.754033] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+[0.027s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[0.115s] [35m[1mScanning dependencies of target Sense[0m
+[0.168s] [ 33%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m
+[2.008s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:[m[K In member function ‘[01m[Kvoid SinPub::timer_callback()[m[K’:
+[2.009s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:102:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ktype[m[K’ was not declared in this scope; did you mean ‘[01m[Kwctype[m[K’?
+[2.009s]   102 |       printf([01;31m[Ktype[m[K(Sense_Y.out));
+[2.009s]       |              [01;31m[K^~~~[m[K
+[2.009s]       |              [32m[Kwctype[m[K
+[3.301s] make[2]: *** [CMakeFiles/Sense.dir/build.make:76: CMakeFiles/Sense.dir/src/ert_main.cpp.o] Error 1
+[3.301s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+[3.301s] make: *** [Makefile:141: all] Error 2
+[3.307s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2

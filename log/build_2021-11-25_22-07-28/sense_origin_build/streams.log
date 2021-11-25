@@ -1,0 +1,18 @@
+[0.045s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[0.178s] [35m[1mScanning dependencies of target Sense[0m
+[0.206s] [ 33%] [32mBuilding C object CMakeFiles/Sense.dir/src/Sense.c.o[0m
+[0.210s] [ 66%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m
+[0.258s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:34:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+[0.258s]    34 | extern [01;31m[K"C"[m[K void Sense_step(void)
+[0.259s]       |        [01;31m[K^~~[m[K
+[0.261s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:74:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+[0.261s]    74 | extern [01;31m[K"C"[m[K void Sense_initialize(void)
+[0.261s]       |        [01;31m[K^~~[m[K
+[0.261s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:84:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+[0.262s]    84 | extern [01;31m[K"C"[m[K void Sense_terminate(void)
+[0.262s]       |        [01;31m[K^~~[m[K
+[0.262s] make[2]: *** [CMakeFiles/Sense.dir/build.make:63: CMakeFiles/Sense.dir/src/Sense.c.o] Error 1
+[0.262s] make[2]: *** Waiting for unfinished jobs....
+[0.361s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+[0.363s] make: *** [Makefile:141: all] Error 2
+[0.368s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2

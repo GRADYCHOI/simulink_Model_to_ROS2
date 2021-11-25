@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target Sense[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/Sense.dir/src/Sense.c.o[0m
+[100%] [32m[1mLinking CXX executable Sense[0m
+[100%] Built target Sense
+-- Install configuration: ""
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/lib/sense_origin_build/Sense
+-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/ament_index/resource_index/package_run_dependencies/sense_origin_build
+-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/ament_index/resource_index/parent_prefix_path/sense_origin_build
+-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/ament_prefix_path.sh
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/path.sh
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/environment/path.dsv
+-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.bash
+-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.sh
+-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.zsh
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/local_setup.dsv
+-- Installing: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/package.dsv
+-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/ament_index/resource_index/packages/sense_origin_build
+-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/cmake/sense_origin_buildConfig.cmake
+-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/cmake/sense_origin_buildConfig-version.cmake
+-- Up-to-date: /home/ngvedu/test1_ws/install/sense_origin_build/share/sense_origin_build/package.xml

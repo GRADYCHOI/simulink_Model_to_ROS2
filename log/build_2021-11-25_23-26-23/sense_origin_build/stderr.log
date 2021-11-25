@@ -1,0 +1,8 @@
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:[m[K In member function ‘[01m[Kvoid SinPub::timer_callback()[m[K’:
+[01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:102:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ktype[m[K’ was not declared in this scope; did you mean ‘[01m[Kwctype[m[K’?
+  102 |       printf([01;31m[Ktype[m[K(Sense_Y.out));
+      |              [01;31m[K^~~~[m[K
+      |              [32m[Kwctype[m[K
+make[2]: *** [CMakeFiles/Sense.dir/build.make:76: CMakeFiles/Sense.dir/src/ert_main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,46 @@
+[0.063s] Invoking command in '/home/ngvedu/test1_ws/build/sense_origin_build': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
+[0.172s] [35m[1mScanning dependencies of target Sense[0m
+[0.267s] [ 33%] [32mBuilding C object CMakeFiles/Sense.dir/src/Sense.c.o[0m
+[0.300s] [ 66%] [32mBuilding CXX object CMakeFiles/Sense.dir/src/ert_main.cpp.o[0m
+[0.309s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:73:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+[0.309s]    73 | extern [01;31m[K"C"[m[K void Sense_initialize(void)
+[0.309s]       |        [01;31m[K^~~[m[K
+[0.310s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/Sense.c:83:8:[m[K [01;31m[Kerror: [m[Kexpected identifier or ‘[01m[K([m[K’ before string constant
+[0.310s]    83 | extern [01;31m[K"C"[m[K void Sense_terminate(void)
+[0.310s]       |        [01;31m[K^~~[m[K
+[0.314s] make[2]: *** [CMakeFiles/Sense.dir/build.make:63: CMakeFiles/Sense.dir/src/Sense.c.o] Error 1
+[0.314s] make[2]: *** Waiting for unfinished jobs....
+[2.308s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:42:19:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSense_step[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[2.309s]    42 | extern Sense_step([01;31m[K)[m[K;
+[2.309s]       |                   [01;31m[K^[m[K
+[2.310s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:42:8:[m[K [01;31m[Kerror: [m[Kambiguating new declaration of ‘[01m[Kint Sense_step()[m[K’
+[2.310s]    42 | extern [01;31m[KSense_step[m[K();
+[2.310s]       |        [01;31m[K^~~~~~~~~~[m[K
+[2.310s] In file included from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:22[m[K:
+[2.311s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build/Sense.h:77:13:[m[K [01;36m[Knote: [m[Kold declaration ‘[01m[Kvoid Sense_step()[m[K’
+[2.311s]    77 | extern void [01;36m[KSense_step[m[K(void);
+[2.311s]       |             [01;36m[K^~~~~~~~~~[m[K
+[2.311s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:43:25:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSense_initialize[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[2.311s]    43 | extern Sense_initialize([01;31m[K)[m[K;
+[2.311s]       |                         [01;31m[K^[m[K
+[2.311s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:43:8:[m[K [01;31m[Kerror: [m[Kambiguating new declaration of ‘[01m[Kint Sense_initialize()[m[K’
+[2.311s]    43 | extern [01;31m[KSense_initialize[m[K();
+[2.312s]       |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.312s] In file included from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:22[m[K:
+[2.312s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build/Sense.h:76:13:[m[K [01;36m[Knote: [m[Kold declaration ‘[01m[Kvoid Sense_initialize()[m[K’
+[2.312s]    76 | extern void [01;36m[KSense_initialize[m[K(void);
+[2.312s]       |             [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.312s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:44:24:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KSense_terminate[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[2.312s]    44 | extern Sense_terminate([01;31m[K)[m[K;
+[2.312s]       |                        [01;31m[K^[m[K
+[2.312s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:44:8:[m[K [01;31m[Kerror: [m[Kambiguating new declaration of ‘[01m[Kint Sense_terminate()[m[K’
+[2.313s]    44 | extern [01;31m[KSense_terminate[m[K();
+[2.316s]       |        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.316s] In file included from [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/src/ert_main.cpp:22[m[K:
+[2.316s] [01m[K/home/ngvedu/test1_ws/src/sense_origin_build/include/sense_origin_build/Sense.h:78:13:[m[K [01;36m[Knote: [m[Kold declaration ‘[01m[Kvoid Sense_terminate()[m[K’
+[2.317s]    78 | extern void [01;36m[KSense_terminate[m[K(void);
+[2.317s]       |             [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.858s] make[2]: *** [CMakeFiles/Sense.dir/build.make:76: CMakeFiles/Sense.dir/src/ert_main.cpp.o] Error 1
+[2.858s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/Sense.dir/all] Error 2
+[2.858s] make: *** [Makefile:141: all] Error 2
+[2.867s] Invoked command in '/home/ngvedu/test1_ws/build/sense_origin_build' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ngvedu/test1_ws/build/sense_origin_build -- -j2 -l2
